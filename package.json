@@ -1,0 +1,31 @@
+{
+  "name": "browserstack_appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run single && npm run local && npm run parallel",
+    "single": "./node_modules/.bin/wdio conf/single.conf.js",
+    "parallel": "./node_modules/.bin/wdio conf/parallel.conf.js",
+    "local": "./node_modules/.bin/wdio conf/local.conf.js",
+    "multiple": "./node_modules/.bin/wdio conf/multiple.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericletsgo/browserstack_appium.git"
+  },
+  "author": "Eric Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericletsgo/browserstack_appium/issues"
+  },
+  "homepage": "https://github.com/ericletsgo/browserstack_appium#readme",
+  "dependencies": {
+    "appium": "^1.17.1"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^6.1.22",
+    "assert": "^2.0.0",
+    "webdriverio": "^6.1.22"
+  }
+}
