@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ericletsgo/browserstack_appium#readme",
   "dependencies": {
-    "appium": "^1.17.1"
+    "appium": "^1.22.3"
   },
   "devDependencies": {
     "@wdio/cli": "^6.1.22",
